@@ -8,7 +8,7 @@ cors_proxy.createServer({
     originWhitelist: ['http://dofusports.xyz','http://roystream.com','http://volokit2.com','http://nodelaytv.pw','https://dofusports.xyz','https://roystream.com','https://volokit2.com','https://nodelaytv.pw'], // Allow all origins
     //requireHeader: ['origin', 'x-requested-with'],
     //removeHeaders: ['cookie', 'cookie2'],
-    setHeaders:{'referer':'http://hockeyweb.live'}
+    setHeaders:{'referer':'http://thecyclingentertainment.com'}
 }).listen(port, host, function() {
     console.log('Running CORS Anywhere on ' + host + ':' + port);
 });
